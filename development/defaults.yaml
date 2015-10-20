@@ -1,0 +1,11 @@
+---
+classes:
+    - role::1001_beers
+
+    - role::blog
+    - role::crowdwish
+    #- role::phoenix
+    - role::psdless
+    - role::uploadir
+
+postgresql::server::listen_addresses: '*'

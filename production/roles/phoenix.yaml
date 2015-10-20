@@ -1,0 +1,12 @@
+---
+role::phoenix::user: phoenix
+role::phoenix::owner: phoenix
+role::phoenix::group: phoenix
+
+role::phoenix::database_name: phoenix_production
+role::phoenix::database_username: phoenix_production
+
+role::phoenix::repo_path: ''
+role::phoenix::web_host: phoenixrpg.com
+
+role::phoenix::environment: production

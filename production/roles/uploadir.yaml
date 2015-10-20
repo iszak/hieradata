@@ -1,0 +1,14 @@
+---
+role::uploadir::user: uploadir
+role::uploadir::owner: uploadir
+role::uploadir::group: uploadir
+
+role::uploadir::monitor: false
+
+role::uploadir::database_name: uploadir_production
+role::uploadir::database_username: uploadir_production
+
+role::uploadir::repo_path: ''
+role::uploadir::web_host: uploadir.com
+
+role::uploadir::environment: production
