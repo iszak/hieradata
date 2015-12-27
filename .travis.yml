@@ -1,4 +1,4 @@
 language: ruby
 
 script:
-  - find -E . -iregex ".*\.ya?ml" -exec ruby -ryaml -e "YAML.parse(File.open('{}'))" \;
+  - find . -regextype posix-extended -iregex ".*\.ya?ml" -exec ruby -ryaml -e "YAML.parse(File.open('{}'))" \;
